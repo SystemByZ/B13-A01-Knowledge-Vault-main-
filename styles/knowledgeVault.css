@@ -39,30 +39,78 @@
     cursor: pointer;
 }
 
-.banner{
-    background-image: url('../assets/hero-bg.png');
+.hero{
+    background-image:url('../assets/hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 674px;
+    text-align: center;
 
 }
-.banner-content{
-    width: 1100px;
-    margin: 0 auto;
-    padding-top: 120px;
-    text-align: center;
-    word-wrap: wrap;
-    align-items: center;
+
+.badge{
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    display: inline-block;
+    margin-top: 154px;
 }
-.banner .bnr-btn1{
+.badge a{
+    text-decoration: none;
+    color: #469165;
+}
+.hero h1{
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-style: Bold;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;        
+}
+
+.hero h1 span{
+    color: #469165;
+}
+.hero p{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 720px;
+    margin:0 auto 32px;
+
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.button-primary{
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+    background-color: #469165;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+}
+.button-secondary{
     font-size: 16px;
     font-weight: 600;
     border: none;
     color: #469165;
-    background-color: #FFFFFF;
-    padding: 8px 12px 8px 34px;
-    border-radius: 1000px;
+    background-color: transparent;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    border: 2px solid #469165;
 }
-.banner .banner-head1{
 
-}
+
